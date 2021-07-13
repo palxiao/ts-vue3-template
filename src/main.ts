@@ -4,6 +4,7 @@ import router from './router'
 import store from './store'
 import utils from './utils'
 
-createApp(App).use(store).use(router).use(utils).mount('#app')
-
+import 'normalize.css/normalize.css'
 import '@/assets/styles/index.scss';
+
+createApp(App).use(store).use(router).use(utils).mount('#app')
