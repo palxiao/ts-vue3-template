@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <el-button type="success">配置成功</el-button>
     <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
   </div>
 </template>

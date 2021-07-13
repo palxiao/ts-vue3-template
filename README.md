@@ -1,4 +1,6 @@
-# Vue3 + vite + vuex + vue-router + axios
+# Vue3 + vite + vuex + vue-router + axios + ElementPlus
+
+整合vite按需引入elementPlus，未整合webpack，参考文档：[element-plus.org](https://element-plus.org/#/zh-CN/component/quickstart)
 
 项目为vue-cli初始化，故可以使用webpack的功能，但推荐vite运行和打包
 
