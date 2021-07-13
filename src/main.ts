@@ -5,7 +5,8 @@ import store from './store'
 import utils from './utils'
 import elementConfig from './utils/widgets/elementConfig'
 
-import '@/assets/styles/index.scss'
+import 'normalize.css/normalize.css'
+import '@/assets/styles/index.scss';
 import 'element-plus/packages/theme-chalk/src/base.scss'
 
 const app = createApp(App)

@@ -11,7 +11,11 @@
   "dependencies": {
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
+<<<<<<< HEAD
     "element-plus": "^1.0.2-beta.55",
+=======
+    "normalize.css": "^8.0.1",
+>>>>>>> main
     "vue": "^3.0.0",
     "vue-class-component": "^8.0.0-0",
     "vue-router": "^4.0.0-0",
