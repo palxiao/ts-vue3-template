@@ -1,4 +1,6 @@
-# Vue3 + vite + vuex + vue-router + axios
+# Vue3 + vite + vuex + vue-router + axios + vantUI + postCss
+
+需注意vant3部分组件与2不兼容 [UI by youzan Vant](https://youzan.github.io/vant/v3/#/zh-CN/button)
 
 - 切换分支查看其他模板
 
@@ -8,7 +10,9 @@
 
 - 项目整合装饰器混合开发模式，可以class形式开发页面和组件
 
-- 已整合Gzip打包压缩
+- 整合Gzip打包压缩
+
+- 整合 postCss to viewport 移动端适配
 
 ## vite start
 ```
