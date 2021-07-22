@@ -1,3 +1,11 @@
+/*
+ * @Author: ShawnPhang
+ * @Date: 2021-07-13 18:13:30
+ * @Description: Setting
+ * @LastEditors: ShawnPhang
+ * @LastEditTime: 2021-07-22 15:44:07
+ * @site: book.palxp.com / blog.palxp.com
+ */
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import path from 'path'
@@ -21,5 +29,8 @@ export default defineConfig({
     alias: {
       '@': resolve('src'),
     },
+  },
+  define: {
+    'process.env': process.env,
   },
 })
