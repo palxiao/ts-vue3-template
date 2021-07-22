@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "vite",
-    "v-build": "vue-tsc --noEmit && vite build",
+    "dev": "cross-env NODE_ENV=development vite",
+    "v-build": "cross-env NODE_ENV=production vue-tsc --noEmit && vite build",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
@@ -27,7 +27,8 @@
     "@vue/cli-plugin-vuex": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "@vue/compiler-sfc": "^3.1.4",
-    "autoprefixer": "^10.3.1",
+    "autoprefixer": "8.0.0",
+    "cross-env": "^7.0.3",
     "esbuild-loader": "^2.13.1",
     "node-sass": "^6.0.1",
     "postcss-px-to-viewport": "^1.1.1",
